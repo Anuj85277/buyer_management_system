@@ -41,25 +41,6 @@ XLSX (Excel Parsing)
 
 MySQL (Cloud hosted on Railway)
 
-📁 Project Structure
-Buyer_management_system/
-│
-├── backend/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── routes/
-│   ├── scripts/
-│   ├── config/
-│   ├── app.js
-│   └── .env
-│
-├── frontend/
-│   ├── src/
-│   ├── pages/
-│   ├── components/
-│   ├── services/
-│   └── package.json
-
 ⚙️ Backend Setup
 1️⃣ Navigate to backend
 cd backend
@@ -75,17 +56,10 @@ MYSQL_PUBLIC_URL=your_railway_public_mysql_url
 
 JWT_SECRET=your_secret_key
 
-4️⃣ Initialize Database (One Time Only)
-npm run init-db
-
-
-OR
-
-node scripts/initDB.js
+4️⃣ Initialize Database
 
 5️⃣ Start Backend Server
 node app.js
-
 
 Server runs on:
 
